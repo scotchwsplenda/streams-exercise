@@ -56,5 +56,17 @@ class StreamProcessor(object):
             n = int(dub)
             total += n
         return count
-#
-# print(StreamProcessor('234761640930110349378289194'))
+
+
+# def process(numby):
+#     count = 0  # How many two-digit numbers the `process` method has added
+#     total = 0  # The running total of sums.
+#     while count < 10 and total < 200:
+#         dub = numby[:2]
+#         if len(dub) < 2:
+#             break
+#         count += 1
+#         n = int(dub)
+#         total += n
+#     return count
+# print(process('234761640930110349378289194'))
